@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Client</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>API Client</h1>
+
+    <button id="fetchButton">Fetch Data</button>
+    <div id="output"></div>
+
+    <h2>Add Data (POST)</h2>
+    <form id="postForm">
+      <input type="text" id="postData" placeholder="Data to post" />
+      <button type="button" id="postButton">Add Data</button>
+    </form>
+
+    <h2>Update Data (PUT)</h2>
+    <form id="putForm">
+      <input type="text" id="putId" placeholder="ID to update" />
+      <input type="text" id="putData" placeholder="Data to update" />
+      <button type="button" id="putButton">Update Data</button>
+    </form>
+
+    <h2>Delete Data (DELETE)</h2>
+    <form id="deleteForm">
+      <input type="text" id="deleteId" placeholder="ID to delete" />
+      <button type="button" id="deleteButton">Delete Data</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
